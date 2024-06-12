@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+    </style>
+    <link rel="shortcut icon" href="img/bus-solid.svg" type="image/x-icon">
+    <title>Contactanos</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+           <nav id="menu1" class="menu 1">
+               <ul>
+                       <li><a href="index.html">Inicio</a></li>
+                       <li><a href="#">Galeria</a></li>
+                       <li><a href="#">Nuestros Servicios</a></li>
+                       <li><a href="#">Horarios</a></li>
+                       <li><a href="contacto.html">Contactanos</a></li>
+                       
+               </ul>
+           </nav>
+   </header>
+   <main>
+    <div id="caja12">
+        <h2>Informacion de Contacto</h2>
+        <p>Direccion: Av. Alejandro Velasco Astete 3055 Lima,Peru</p>
+        <p>Telefonos: 965874688|(01)4862158</p>
+        <p>Correo: ventas@transexpress.com.pe</p><br><br>
+        <h2>Horario de Atencion</h2>
+        <h4>Area de Ventas:</h4>
+        <p>De Lunes a Viernes de 8am a 6 pm</p>
+    </div>
+    <div>
+        <h2 id="h2form">Escríbenos</h2><br>
+        <form id="form2" action="datos.php" method="get" name="form2">
+            <div>
+                Nombre (*) <br><br> <input type="text" name="Nombre" placeholder="Ingrese su nombre"><br><br>
+                Telefono* <br><br><input type="tel" name="Celular" placeholder="999 999 999" required><br><br>
+                Correo* <br><br><input type="email" name="correo" placeholder="nombre@dominio.com" required><br><br>
+                RUC (Opcional) <br><br><input type="text" name="Nombre" placeholder="Ingrese su RUC"><br><br>
+                Mensaje* <br><br><input type="text" id="mensaje" name="Mensaje" placeholder="Detallanos tu requerimiento"><br><br>
+            </div>
+            <div class="botones">
+                <input type="submit" value="Aceptar">
+            </div>
+        </form>
+    </div>
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.6359042350527!2d-76.99341552517325!3d-12.137045688106888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b80dbb9b9e5f%3A0x9771282659549f1c!2sAv.%20Alejandro%20Velasco%20Astete%203055%2C%20Santiago%20de%20Surco%2015039!5e0!3m2!1ses-419!2spe!4v1718217424217!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+   </main>
+   <footer>
+    <div>
+        <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+        <p>Transportes Express</p>
+        <p>(01) 4862158</p>
+        <p>ventas@transexpress.com.pe</p>
+    </div>
+    <div class="pie 1">
+        <h3>Empresa</h3><br>
+        <ul>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Teminales</a></li>
+            <li><a href="#">Puntos de Venta</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="contacto.html">Contactanos</a></li>
+        </ul>
+    </div>
+    <div class="pie 2">
+        <h3>Carga</h3><br>
+        <ul>
+            <li><a href="#">Servicios de Carga</a></li>
+            <li><a href="#">Rastreo de Carga</a></li>
+            <li><a href="#">Cotizaciones</a></li>
+            <li><a href="#">Rutas de Carga</a></li>
+            <li><a href="#">Condicones de Traslado</a></li>
+        </ul>
+    </div>
+    <div class="pie 3">
+        <h3>Corporativos</h3><br>
+        <ul>
+            <li><a href="#">Volverse un Agente</a></li>
+            <li><a href="#">Alquiler de Buses</a></li>
+            <li><a href="#">Publicidad de Buses</a></li>
+            <li><a href="#">Trabaja con Nosotros</a></li>
+            <li><a href="#">Venta Empresa</a></li>
+        </ul>
+    </div>
+   </footer>
+    
+</body>
+</html>

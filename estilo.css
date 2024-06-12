@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+header{
+    height: 100px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: wheat;
+    
+}
+header img{
+    height: 150px; 
+    width: 200px;
+}
+.menu{
+    list-style-type: none;
+}
+#menu1 ul li{
+    display: inline;
+    justify-content: end;
+    margin: 80px;  
+}
+.menu ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+#menu1 ul li a:hover{
+    color:red;
+    text-decoration: underline;
+    font-size: 18px;
+    transition: 0.9s;
+}
+main{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px;
+}
+footer{
+    height: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: wheat;
+    
+}
+footer img{
+    height: 150px; 
+    width: 200px;
+    
+}
+.pie{
+    flex-wrap: wrap;
+    margin-right: 105px;
+}
+.pie h3{
+    border-bottom: 2px solid red;
+    padding-bottom: 15px;
+}
+.pie ul{
+    list-style-type: none;
+}
+.pie a{
+    text-decoration: none;
+    color: black;
+}
+table{
+    border-collapse: collapse;
+   
+}
+td,th{
+    padding: 8px;
+    width: 90px;
+    height: 40px;
+    
+}
+
+.tabla{
+    margin: 30px; 
+}
+#caja1{
+    display: flex;
+    flex-direction: column;
+}
+
+#form1{
+    height: 70%;
+    border: 1px solid red;
+    background-color: wheat;
+    
+}
+#form1 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 35px;
+    margin: auto 45px;
+    
+}
+#form1 iframe{
+    padding-left: 80px;
+}
+#form1 div input{
+    width: 220px;
+}
+#formulario-t{
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    font-size: larger;
+    color: #820000;
+}
+input{
+    height: 35px;
+    width: 280px;
+    padding: 15px;
+}
+.botones input{
+    width: 280px;
+}
+#mensaje {
+    width: 280px;
+    height: 180px;
+    padding: 10px; 
+    font-size: 12px;
+    text-wrap: wrap;
+  }
+  th,td{
+    text-align: center;
+  }
+  .v{
+    background-color: #820000;
+  }
+  th{
+    color: white;
+    background-color: #820000;
+    }
+    td{
+        background-color: beige;
+    }
+    #caja1 h1,h2{
+        text-align: center;
+    }
+    #caja1 h1{
+        border-bottom: 4px solid red ;
+        padding: 15px;
+        font-size: 40px;
+        color: #820000;
+    }
+    #caja1 h2{
+        padding: 15px;
+        
+    }
+    #caja12 h2,h4{
+        padding: 15px;
+        color: #820000;
+
+    }
+    #h2form{
+        color: #820000;
+    }
+    footer{
+        color: white;
+    }
+
+
+
